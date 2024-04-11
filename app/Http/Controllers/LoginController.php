@@ -75,10 +75,10 @@ class LoginController extends Controller
             return redirect()->route('home');
 
         } catch (ConnectException $e) {
-            error_log('Error de conexión');
+            error_log("Error de conexión: $e");
             return redirect()->route('login')->with('error', 'Error de conexión');
         } catch (RequestException $e) {
-            error_log('Error en la petición');
+            error_log("Error en la petición: $e");
             return redirect()->route('login')->with('error', 'Usuario y/o contraseña incorrectos.');
         } catch (Exception $e) {
             error_log("Error desconocido: $e");
