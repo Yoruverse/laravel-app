@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.login')
 
 @section('content')
     <main class="p-2.5 flex items-center justify-center h-dvh">
@@ -11,11 +11,11 @@
                 </p>
             @endif
             <header class="flex flex-col gap-1.5">
-                <h1 class="uppercase font-bold text-2xl">Inicia sesión</h1>
+                <h1 class="uppercase font-bold text-2xl text-slate-950">Inicia sesión</h1>
                 <p class="text-slate-700">para poder continuar</p>
             </header>
             <section
-                class="*:rounded-xl *:outline-none *:px-4 *:w-full *:h-9 *:bg-slate-100 *:border *:border-slate-300 *:transition-all flex flex-col gap-2.5 w-full">
+                class="*:text-slate-950 *:rounded-xl *:outline-none *:px-4 *:w-full *:h-9 *:bg-slate-100 *:border *:border-slate-300 *:transition-all flex flex-col gap-2.5 w-full">
                 <input type="text" name="username" class="focus:border-blue-500 placeholder:text-slate-500"
                     placeholder="Usuario">
                 <input type="password" name="password" class="focus:border-blue-500 placeholder:text-slate-500"
