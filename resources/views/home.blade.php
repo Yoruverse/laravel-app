@@ -6,7 +6,7 @@
         @include('components.navbar-user')
     </header>
     <section class="flex justify-around gap-5 flex-wrap w-full max-w-[1100px]">
-        <section class="bg-white border border-slate-200 rounded-xl p-5 flex flex-col gap-5 w-full max-w-[350px]">
+        <section class="bg-white border border-slate-300 rounded-xl p-5 flex flex-col gap-5 w-full max-w-[350px]">
             <header class="flex items-center justify-between">
                 <p class="text-slate-500 uppercase tracking-widest font-medium flex items-center gap-1.5 text-base">
                     <x-tabler-server class="size-5" />
@@ -28,7 +28,7 @@
                 </p>
             </footer>
         </section>
-        <section class="bg-white border border-slate-200 rounded-xl p-5 flex flex-col gap-5 w-[350px]">
+        <section class="bg-white border border-slate-300 rounded-xl p-5 flex flex-col gap-5 w-[350px]">
             <header class="flex items-center justify-between">
                 <p class="text-slate-500 uppercase tracking-widest font-medium flex items-center gap-1.5 text-base">
                     <x-tabler-tag class="size-5" />
@@ -50,7 +50,7 @@
                 </p>
             </footer>
         </section>
-        <section class="bg-white border border-slate-200 rounded-xl p-5 flex flex-col gap-5 w-[350px]">
+        <section class="bg-white border border-slate-300 rounded-xl p-5 flex flex-col gap-5 w-[350px]">
             <header class="flex items-center justify-between">
                 <p class="text-slate-500 uppercase tracking-widest font-medium flex items-center gap-1.5 text-base">
                     <x-tabler-phone class="size-5" />

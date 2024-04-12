@@ -18,9 +18,9 @@
 <body class="relative flex min-h-dvh font-sans antialiased bg-slate-50 text-sm">
     @include('components.sidebar')
     <figure class="absolute bg-slate-100 w-full h-48 -z-10 border-b border-slate-300 bg-pattern"></figure>
-    <section class="grow py-10 flex items-center flex-col min-h-dvh px-5 w-full mx-auto gap-10">
+    <main class="grow py-10 flex items-center flex-col min-h-dvh px-5 w-full mx-auto gap-10">
         @yield('content')
-    </section>
+    </main>
 </body>
 
 </html>
